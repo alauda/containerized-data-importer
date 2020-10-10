@@ -48,7 +48,7 @@ func createControllerResources(args *FactoryArgs) []runtime.Object {
 			args.Verbosity,
 			args.PullPolicy,
 			args.InfraNodePlacement),
-		createInsecureRegConfigMap(),
+		//createInsecureRegConfigMap(),
 		createPrometheusService(),
 	}
 }
